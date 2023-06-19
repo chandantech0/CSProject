@@ -19694,7 +19694,7 @@ input[type=date]::-webkit-calendar-picker-indicator {
 }
 .btn-position-md-middle {
   position: absolute;
-  left: 104%;
+  left: 105%;
   top: 53%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
@@ -21937,4 +21937,23 @@ html[dir=rtl] .choices__input {
 
 .text-grey{
   color: #929090;
+}
+
+#works{
+  font-weight: 700;
+  overflow: visible;
+  cursor: pointer;
+}
+
+#submitForm{
+  font-weight: 700;
+  overflow: visible;
+  cursor: pointer;
+}
+
+.btn-custom{
+  order: 1px solid #ccc;
+    border-radius: 40px;
+    width: 160px;
+    background-color: #7068e1d9;
 }
